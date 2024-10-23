@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    padding: 20px;
+    margin: 0; /* Remove margens padrão */
+    overflow: hidden; /* Remove barras de anotações */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #282828;
+    padding: 20px;
+    border-radius: 12px; /* Aumenta o arredondamento */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Sombra mais suave */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+    display: block;
+    margin: 0 auto 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Aumenta o padding */
+    margin: 10px 0;
+    border: 2px solid #555; /* Borda mais grossa */
+    border-radius: 8px; /* Aumenta o arredondamento */
+    background-color: #3a3a3a;
+    color: #f0f0f0;
+    transition: border-color 0.3s ease; /* Transição suave para a borda */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+}
+
+input:focus {
+    border-color: #28a745; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+}
+
+input::placeholder {
+    color: #bbb; /* Cor do placeholder */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Aumenta o padding */
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Aumenta o arredondamento */
+    cursor: pointer;
+    font-size: 16px; /* Aumenta o tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+button:hover {
+    background-color: #218838; /* Cor ao passar o mouse */
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Aumenta o padding */
+    margin: 10px 0;
+    border: 2px solid #555; /* Borda mais grossa */
+    border-radius: 8px; /* Aumenta o arredondamento */
+    background-color: #3a3a3a;
+    color: #f0f0f0;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    font-size: 16px; /* Aumenta o tamanho da fonte */
+}
+
+input:focus {
+    border-color: #28a745; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.5); /* Sombra mais forte ao focar */
+}
+
+input::placeholder {
+    color: #bbb; /* Cor do placeholder */
+    opacity: 0.7; /* Um pouco mais transparente */
+}
+
+#goHomeButton {
+    background: linear-gradient(45deg, #007bff, #0056b3); /* Gradiente de fundo */
+    color: white;
+    border: 1px solid #0056b3; /* Borda com espessura menor */
+    border-radius: 4px; /* Arredondamento menor */
+    cursor: pointer;
+    font-size: 12px; /* Tamanho da fonte menor */
+    padding: 6px 10px; /* Padding reduzido para compactar */
+    margin-top: 10px; /* Espaço acima do botão */
+    transition: background-color 0.3s ease, transform 0.2s, border-color 0.3s; /* Transições suaves */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra mais leve */
+}
+
+#goHomeButton:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+    border-color: #004085; /* Mudança na borda ao passar o mouse */
+    transform: translateY(-1px); /* Levanta o botão ao passar o mouse */
+}
+
+#goHomeButton:active {
+    transform: translateY(0); /* Retorna à posição original ao clicar */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Reduz a sombra ao clicar */
+}
+
